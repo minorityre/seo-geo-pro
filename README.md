@@ -1,5 +1,13 @@
 # SEO/GEO Pro
 
+[![CI](https://github.com/minorityre/seo-geo-pro/actions/workflows/ci.yml/badge.svg)](https://github.com/minorityre/seo-geo-pro/actions/workflows/ci.yml)
+[![Codex Skill](https://img.shields.io/badge/Codex-Skill-0099ff)](SKILL.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](pyproject.toml)
+[![tests](https://img.shields.io/badge/tests-15%20passing-brightgreen)](tests/)
+[![SEO/GEO](https://img.shields.io/badge/SEO%2FGEO-Pro-14B8A6)](references/task-playbooks.md)
+[![AI Search](https://img.shields.io/badge/AI%20Search-ready-7C3AED)](references/source-of-truth.md)
+
 Senior SEO and GEO skill for Codex.
 
 SEO/GEO Pro is an evidence-first operating system for technical SEO, content strategy, on-page optimization, structured data, E-E-A-T, migrations, local SEO, ecommerce SEO, SaaS SEO and AI search visibility.
