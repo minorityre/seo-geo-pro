@@ -56,9 +56,29 @@ It is built for operators who want the judgment of a senior SEO strategist insid
 
 ## Installation
 
-### Codex Skill Install
+### Recommended: Skills CLI
 
-Clone the repository and copy it into your Codex skills directory.
+The `npx skills add` CLI scans this repository and installs the `seo-geo-pro` skill directly.
+
+```bash
+npx skills add https://github.com/minorityre/seo-geo-pro --skill seo-geo-pro
+```
+
+To install it globally for your user-level Codex skills:
+
+```bash
+npx skills add https://github.com/minorityre/seo-geo-pro --skill seo-geo-pro --global
+```
+
+To list the available skills in the repo before installing:
+
+```bash
+npx skills add https://github.com/minorityre/seo-geo-pro --list
+```
+
+### Manual Install
+
+Use this only if you prefer not to use the skills CLI. Clone the repository and copy it into your Codex skills directory.
 
 Windows PowerShell:
 
