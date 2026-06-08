@@ -8,6 +8,17 @@
 [![SEO/GEO](https://img.shields.io/badge/SEO%2FGEO-Pro-14B8A6)](references/task-playbooks.md)
 [![AI Search](https://img.shields.io/badge/AI%20Search-ready-7C3AED)](references/source-of-truth.md)
 
+```text
+  ███████╗███████╗ ██████╗      ██████╗ ███████╗ ██████╗      ██████╗ ██████╗  ██████╗
+  ██╔════╝██╔════╝██╔═══██╗    ██╔════╝ ██╔════╝██╔═══██╗    ██╔══██╗██╔══██╗██╔═══██╗
+  ███████╗█████╗  ██║   ██║    ██║  ███╗█████╗  ██║   ██║    ██████╔╝██████╔╝██║   ██║
+  ╚════██║██╔══╝  ██║   ██║    ██║   ██║██╔══╝  ██║   ██║    ██╔═══╝ ██╔══██╗██║   ██║
+  ███████║███████╗╚██████╔╝    ╚██████╔╝███████╗╚██████╔╝    ██║     ██║  ██║╚██████╔╝
+  ╚══════╝╚══════╝ ╚═════╝      ╚═════╝ ╚══════╝ ╚═════╝     ╚═╝     ╚═╝  ╚═╝ ╚═════╝
+
+              The evidence-first SEO/GEO layer for Codex agents
+```
+
 **SEO/GEO Pro is a senior, evidence-first SEO and generative search visibility skill for [OpenAI Codex](https://openai.com/codex/).** It helps Codex audit websites, plan content, diagnose technical SEO issues, improve AI-search citability, build structured data recommendations, and keep public copy clean before publishing.
 
 It is built for operators who want the judgment of a senior SEO strategist inside an agent workflow: official-source discipline, clear evidence labels, business prioritization, migration awareness, public-copy QA, and small executable helpers for safer URL inspection.
