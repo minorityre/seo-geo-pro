@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO/GEO Pro"
+  short_description: "Senior SEO/GEO skill for technical SEO, content strategy, AI search visibility and organic growth."
+  default_prompt: "Use this skill to audit, plan, create or optimize SEO/GEO work with senior judgment, official sources, business prioritization, evidence labels and QA before publishing."

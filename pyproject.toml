@@ -1,0 +1,11 @@
+[project]
+name = "seo-geo-pro"
+version = "1.0.0"
+description = "Senior SEO/GEO Codex skill with evidence-first workflows and optional audit helpers."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
