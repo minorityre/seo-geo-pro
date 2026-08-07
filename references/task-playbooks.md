@@ -2,6 +2,15 @@
 
 Use this reference for complete work. Do not deliver generic checklists. Decide what matters based on the website, intent, risk and available evidence.
 
+## Contents
+
+1. Complete and technical audits
+2. Keyword/intent research, briefs and URL optimization
+3. Content creation, architecture and competitive analysis
+4. GEO/AEO and vertical playbooks
+5. Migrations, traffic drops and reporting
+6. Product-led organic growth and programmatic SEO
+
 ## 1. Complete SEO/GEO Audit
 
 1. Define scope: domain, subdomains, country, language, CMS, goal, period, competitors and available sources.
@@ -72,10 +81,13 @@ Terms such as "ownership" and "cannibalization" are internal language. Do not pu
 
 A brief must let a writer, developer or client implement without guessing.
 
+For public content, use the complete contract in [content-system.md](content-system.md). Do not start from keywords or headings alone. First decide whether to create, update, consolidate, redirect, noindex or avoid the URL.
+
 Include:
 
 - Proposed URL and canonical.
 - Page type.
+- User, circumstance, job and acceptance criteria.
 - Primary intent and secondary intents.
 - User, funnel, offer and CTA.
 - Main keyword/entity and variants.
@@ -83,12 +95,16 @@ Include:
 - SERP observations and competitors.
 - Differentiated angle.
 - Required proof.
+- Information-delta and claim ledgers.
 - H1/H2/H3 structure.
 - GEO blocks.
 - Internal links.
 - External links.
 - Schema.
 - Media.
+- Components, states, mobile and accessibility requirements.
+- Journey role, next action, activation/business event and distribution.
+- Owner, review date and update/consolidation triggers.
 - Risks.
 - Metrics.
 - QA requirements.
@@ -104,21 +120,22 @@ Include:
 
 ## 6. Content Creation
 
-Process:
+Load [content-system.md](content-system.md) and follow its admission, contract, depth, evidence, design and publication gates.
 
-1. Confirm intent and audience.
-2. Create the brief.
-3. Design structure.
-4. Answer the main intent quickly.
-5. Develop real depth.
-6. Add proof, examples, data or experience.
-7. Add nuance and limitations.
-8. Add tables/lists only when they improve understanding.
-9. Add real FAQs.
-10. Add title, description, internal links, schema and CTA.
-11. Review for humans, search engines and AI systems.
+Critical rules:
 
-Do not write generic text that could belong to any domain. Every piece needs an angle, business context, concrete examples or proof.
+1. Decide whether the URL deserves to exist.
+2. Define the user's job, required questions/decisions and acceptance criteria.
+3. Inspect live SERPs and sources without cloning their structure or consensus.
+4. Define a material information delta and the evidence/assets required to support it.
+5. Design the whole page experience: content, components, media, product contribution, CTA, mobile, accessibility and states.
+6. Build a coverage matrix before drafting complete long-form work.
+7. Draft and reconcile every required unit.
+8. Run reverse-outline, second-search, specificity and deletion tests.
+9. Fact-check body, metadata, schema, links and media provenance.
+10. Keep the artifact in draft/review when decisive facts, experience, rights, method or expert approval are missing.
+
+Never use word count as the quality gate. A short page may pass; a long page may fail. Do not write generic text that could belong to any domain.
 
 ## 7. Architecture and Topical Authority
 
@@ -148,7 +165,9 @@ Use precise definitions, direct answers, descriptive headings, self-contained st
 
 Avoid unsupported claims, vague text, paragraphs that depend too heavily on previous context, prompt injection, empty "optimized for AI" claims and accidental blocking of AI search crawlers when citation is the goal.
 
-Measurement: Bing AI Performance, assistant referrals, logs, cited pages, grounding queries, brand mentions, share of voice and assisted conversions.
+Measurement: Google Search Generative AI performance when available, Bing AI Performance, assistant referrals, verified logs, cited pages, grounding queries, brand mentions, share of visibility and assisted conversions. Keep indexation, retrieval, citation, prominence, claim absorption/fidelity, referral and business outcomes separate. Repeat representative prompts/queries and record surface, market, date, device and model/interface when known.
+
+Do not encode citation/statistics/FAQ rewrites as a universal recipe. Current empirical studies disagree and production engines change; treat such interventions as controlled experiments.
 
 ## 10. Ecommerce SEO
 
@@ -257,6 +276,8 @@ Actions:
 - UGC quality.
 - Templates with differentiated content.
 
+For any scalable template family, load [programmatic-seo.md](programmatic-seo.md). Define `index_if`, `noindex_if`, data completeness/freshness, empty-state, canonical, pilot, rendered sample QA, scale/stop and rollback criteria before generation.
+
 ## 15. SEO Migrations
 
 Pre-launch:
@@ -300,3 +321,26 @@ Structure:
 - Business metrics.
 
 Avoid reports with metrics that do not support a decision. Every chart should answer a question.
+
+## 18. Product-Led Organic Growth
+
+Load [organic-growth.md](organic-growth.md).
+
+1. Classify the growth motion: self-serve product-led, sales-assisted, sales/service-led, ecommerce, publisher, local or marketplace.
+2. Map organic initiatives across eligibility, visibility, acquisition, task success, activation, conversion, retention/expansion and advocacy/contribution.
+3. Build a portfolio across demand capture, expert education, product-led content, tools/templates, integrations/use cases, original research, programmatic/data pages, community/UGC, digital PR and lifecycle support.
+4. For each initiative, define the user job, real product contribution, next action, value/activation event, distribution, owner, lifecycle and business metric.
+5. Improve existing high-value pages and journeys before creating large inventories.
+6. Treat conversion and loop claims as hypotheses until measured. Do not force product mentions or withhold the promised answer to manufacture signups.
+
+## 19. Programmatic SEO
+
+Load [programmatic-seo.md](programmatic-seo.md) before approving or producing scale.
+
+- Scale data, inventory, tools, workflows or real utility; do not scale paraphrased prose.
+- Consolidate query variants that share the same user job and result.
+- Define a project-specific page-worthiness predicate and fail closed.
+- Pilot high, medium, low and missing-data cases.
+- Inspect every template/edge state and a risk-based sample of instances in rendered desktop/mobile output.
+- Monitor technical eligibility, data quality, qualified task completion/conversion and spam/privacy/brand guardrails.
+- Stop, noindex, consolidate, redirect or avoid generation when value or evidence falls below the predicate.

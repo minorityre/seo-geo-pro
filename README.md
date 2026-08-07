@@ -4,7 +4,7 @@
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-0099ff)](SKILL.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](pyproject.toml)
-[![tests](https://img.shields.io/badge/tests-15%20passing-brightgreen)](tests/)
+[![tests](https://img.shields.io/badge/tests-19%20passing-brightgreen)](tests/)
 [![SEO/GEO](https://img.shields.io/badge/SEO%2FGEO-Pro-14B8A6)](references/task-playbooks.md)
 [![AI Search](https://img.shields.io/badge/AI%20Search-ready-7C3AED)](references/source-of-truth.md)
 
@@ -19,7 +19,7 @@
               The evidence-first SEO/GEO layer for Codex agents
 ```
 
-**SEO/GEO Pro is a senior, evidence-first SEO and generative search visibility skill for [OpenAI Codex](https://openai.com/codex/).** It helps Codex audit websites, plan content, diagnose technical SEO issues, improve AI-search citability, build structured data recommendations, and keep public copy clean before publishing.
+**SEO/GEO Pro is a senior, evidence-first SEO, generative-search and product organic-growth skill for [OpenAI Codex](https://openai.com/codex/).** It helps Codex audit websites, plan and build complete page experiences, diagnose technical SEO issues, connect search discovery to product value, improve AI-search citability, and keep public copy clean before publishing.
 
 It is built for operators who want the judgment of a senior SEO strategist inside an agent workflow: official-source discipline, clear evidence labels, business prioritization, migration awareness, public-copy QA, and small executable helpers for safer URL inspection.
 
@@ -62,6 +62,9 @@ It is built for operators who want the judgment of a senior SEO strategist insid
 - **SEO and GEO together.** AI Overviews, AI Mode, Copilot and ChatGPT Search are treated as search surfaces built on discoverability, clarity, trust, citations, entities and technical accessibility, not as a magic replacement for SEO.
 - **Falsifiable, not promotional.** Important recommendations should include the observation, dependency, failure check, leading indicator and business metric.
 - **Public-copy safety.** Internal SEO language such as "ownership", "cannibalization", "quick win", "thin content" and "money page" should stay in private plans, not leak into landing pages.
+- **Semantic depth instead of word-count theater.** A mandatory content contract covers the user job, decisions, evidence, original contribution, design, product value, conversion and lifecycle. A short page may pass; a padded 5,000-word article may fail.
+- **Product organic growth.** Visibility is connected to task success, activation, conversion, distribution and retention rather than treated as the finish line.
+- **Fail-closed programmatic SEO.** Scaled page families require real data or utility, project-specific indexation predicates, pilots, rendered sample QA and stop/rollback rules.
 - **Operator-friendly outputs.** The templates are written for action: affected URLs, evidence, priority, owner, dependencies, implementation risk and validation.
 - **Lightweight execution.** The helper scripts cover safe URL checks, HTML fetches, SEO parsing, optional rendering and public-copy scanning without turning the skill into a heavy crawler.
 
@@ -147,6 +150,10 @@ Diagnose why organic traffic dropped after the migration. Separate confirmed evi
 Review this public copy before publishing and remove internal SEO language.
 ```
 
+```text
+Create a definitive guide for this user job. Do not draft until the page, evidence, depth, design, product-growth and publication contracts are complete.
+```
+
 ## Prompt Commands
 
 SEO/GEO Pro does not require slash commands. These prompt patterns work well:
@@ -175,10 +182,20 @@ SEO/GEO Pro does not require slash commands. These prompt patterns work well:
 ### Content Strategy
 
 - Keyword and entity research from business value and intent, not volume alone.
-- SEO/GEO briefs for editorial, SaaS, ecommerce, local, comparison and support pages.
+- Page admission and complete SEO/GEO briefs for editorial, SaaS, ecommerce, local, comparison and support pages.
 - Topical maps, hubs, clusters and internal linking plans.
 - Content refresh, consolidation and cannibalization workflows.
 - Differentiation requirements: proof, examples, data, cases, expert judgment and limitations.
+- Semantic coverage gates that prevent skeletal or padded AI copy without imposing a universal word count.
+- Page-family contracts for definitions, guides, landings, use cases, reviews, categories, research, tools and entity pages.
+
+### Product Organic Growth and Page Experience
+
+- Search-to-value journeys covering task success, activation, conversion, retention and business outcomes.
+- Product-led content, tools, templates, integrations, original research, digital PR and lifecycle portfolios.
+- Content design, mobile, media, accessibility and agent-readiness requirements.
+- Distribution, experimentation, guardrail metrics, ownership and update/retirement rules.
+- Programmatic SEO with page-worthiness, data freshness, pilots and fail-closed indexation.
 
 ### GEO / AI Search Visibility
 
@@ -186,11 +203,12 @@ SEO/GEO Pro does not require slash commands. These prompt patterns work well:
 - Citable answer blocks, definitions, structured headings and entity consistency.
 - Guidance for AI Overviews, AI Mode, Copilot and ChatGPT Search.
 - Clear crawler-control distinctions: search bots, training bots and user-initiated agents.
-- Measurement ideas: AI referrals, cited pages, grounding queries, logs, brand mentions and assisted conversions.
+- Current measurement workflow: Search Console Generative AI reports when available, Bing AI Performance, assistant referrals, verified logs, cited pages, grounding queries, brand mentions and assisted conversions—with platform limits and causality kept explicit.
 
 ### Structured Data
 
 - Organization, LocalBusiness, Person, Article, Product, Offer, Review, BreadcrumbList, WebSite, Event, Course, JobPosting, SoftwareApplication, VideoObject and ImageObject guidance.
+- Live feature-resolution workflow: verify current platform support and requirements before recommending a type.
 - Visible-content alignment.
 - Risk warnings for fake authors, fake ratings, fake prices, expired jobs, non-visible FAQs and unsupported claims.
 
@@ -258,6 +276,9 @@ seo-geo-pro/
   references/
     source-of-truth.md
     task-playbooks.md
+    content-system.md
+    organic-growth.md
+    programmatic-seo.md
     output-templates.md
     qa-gates.md
   scripts/
@@ -275,15 +296,16 @@ The main skill stays compact enough for Codex to load quickly. Deep guidance liv
 
 ## Methodology
 
-SEO/GEO Pro follows seven phases:
+SEO/GEO Pro follows eight phases:
 
-1. **Understand** the business, audience, page type and goal.
-2. **Classify** the task and website type.
-3. **Gather evidence** from URLs, rendered HTML, SERPs, tools, analytics or provided exports.
-4. **Diagnose** confirmed issues, probable issues, hypotheses, opportunities and risks.
-5. **Prioritize** by impact, effort, risk, dependencies and owner.
-6. **Deliver** actions with evidence, implementation details, validation and metric.
-7. **QA** public copy, schema, rendered SEO and anti-hallucination risks before closing.
+1. **Define** the user/business outcome and proof of completion.
+2. **Inspect** the real site, product, evidence, templates and constraints.
+3. **Research** live SERPs, current platform guidance and decisive sources.
+4. **Decide** the correct URL, format and product/page response.
+5. **Contract** technical or content depth, evidence, design, growth and lifecycle requirements.
+6. **Execute** the smallest complete authorized change.
+7. **Validate** rendered output, technical states, claims, page experience and measurement.
+8. **Refute and iterate** against omissions, filler, regressions, edge cases and unsupported causality.
 
 Evidence labels:
 
@@ -352,12 +374,16 @@ The guard flags internal SEO language such as `SEO ownership`, `cannibalization`
 - It does not guarantee rankings, traffic or AI citations.
 - Script output is scoped. A single URL parse does not prove site-wide indexation or performance.
 - The skill avoids unverified GEO claims. If official guidance changes, update `references/source-of-truth.md`.
+- Semantic gates reduce shallow output but do not manufacture first-hand experience, proprietary data, expert approval or missing product truth. Those gaps remain explicit publication blockers.
 
 ## Documentation
 
 - [Main skill](SKILL.md)
 - [Source of truth](references/source-of-truth.md)
 - [Task playbooks](references/task-playbooks.md)
+- [Content and page production system](references/content-system.md)
+- [Product-led organic growth](references/organic-growth.md)
+- [Programmatic SEO gate](references/programmatic-seo.md)
 - [Output templates](references/output-templates.md)
 - [QA gates](references/qa-gates.md)
 - [Tests](tests/)
@@ -371,6 +397,10 @@ It is written for Codex first. The Markdown instructions can be adapted elsewher
 ### Does this optimize for AI Overviews and ChatGPT Search?
 
 Yes, but through evidence-first SEO fundamentals: discoverability, indexability, clear entities, visible HTML, useful structure, trust, sources and citable passages.
+
+### Does it require 2,000-word articles?
+
+No. Google does not prescribe an ideal word count. SEO/GEO Pro requires a page-specific coverage and evidence contract: the work is complete only when the user can finish the defined job without material omissions or filler.
 
 ### Does it recommend `llms.txt`?
 

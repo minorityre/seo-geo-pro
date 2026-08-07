@@ -2,6 +2,21 @@
 
 Use these templates to deliver clear and actionable work.
 
+## Contents
+
+- Quick diagnosis
+- Complete audit
+- Page and growth brief
+- URL optimization
+- Content plan
+- Architecture/topical map
+- Competitive analysis
+- Technical plan
+- Programmatic SEO specification
+- Product organic-growth roadmap
+- Migration plan
+- Executive reporting
+
 ## Quick Diagnosis
 
 ```markdown
@@ -64,73 +79,126 @@ Use these templates to deliver clear and actionable work.
 |---|---|---|---|---|---|---|
 ```
 
-## SEO/GEO Brief
+## Page and Growth Brief
 
 ```markdown
-# SEO/GEO Brief
+# Page and Growth Brief
 
-## Summary
+## Admission and Summary
 - URL:
+- Existing URL checked:
+- Decision: create | update | consolidate | redirect | noindex | do not create
+- Evidence of user need/demand:
+- Why this format:
+- Index decision:
 - Page type:
 - Objective:
-- Market/language:
-- User:
-- Funnel:
-- Conversion:
+- Market/language/device:
 
-## Intent
+## User Job and Acceptance
+- User and circumstance:
+- Functional job/progress:
+- Emotional/social forces when relevant:
+- Current alternative:
+- What the user must be able to decide/do:
+- Acceptance criteria:
+
+## Intent and Entities
 - Primary intent:
 - Secondary intents:
 - What this must solve:
 - What this should not cover:
-
-## Keywords and Entities
-- Main keyword/entity:
-- Secondary variants:
-- Entities:
-- Questions:
+- Main query/entity:
+- Variants and related entities:
+- Required questions and decisions:
 
 ## SERP and Competition
 | Competitor | Page Type | What It Covers | Gap | Opportunity |
 |---|---|---|---|---|
 
-## Differentiated Angle
-- Proprietary proof:
-- Examples:
-- Required data:
-- Cases:
-- Limitations:
+## Information Delta
+| User decision/question | Existing consensus | Gap/weakness | Our contribution | Evidence/asset | Planned section |
+|---|---|---|---|---|---|
 
-## Structure
+## Claim Ledger
+| Claim | Type | Source | Verification date | Scope/limit | Reviewer/status |
+|---|---|---|---|---|---|
+
+## Originality and Trust
+- First-hand experience:
+- Proprietary data or case:
+- Expert/author/reviewer:
+- Methodology:
+- Original media/tool/template:
+- Required proof:
+- Missing inputs that block publication:
+- Limitations and conflicts:
+
+## Coverage and Structure
+- Required questions/decisions:
+- Objections, errors and edge cases:
 - H1:
 - H2/H3:
+- Coverage matrix:
 
-## On-Page
+## Content Design and Page Experience
+- Information order and first-screen job:
+- Required components:
+- Proof placement:
+- Critical visible content:
+- Optional/collapsible content:
+- TOC decision:
+- Mobile/extreme-content behavior:
+- Loading/empty/error/success states:
+- Accessibility/agent-readiness:
+- Media jobs, provenance, rights and alternatives:
+
+## On-Page and GEO
 - Meta title:
 - Meta description:
 - Recommended intro:
-- CTAs:
-- FAQs:
-- Schema:
-- Media:
+- Self-contained answer/definition blocks when useful:
+- FAQs only when real and useful:
+- Schema and current feature/consumer verified:
 
-## Linking
+## Journey and Product Growth
+- Journey/funnel role:
+- Natural product contribution and business-potential rationale:
+- Primary next action/CTA:
+- What happens after the CTA:
+- Value/activation event:
+- Business outcome:
+- Growth loop, if real:
+- Guardrails:
+
+## Linking and Distribution
 - Incoming internal links:
 - Outgoing internal links:
-- External links:
-- Anchors:
+- External sources and anchors:
+- Hub/navigation/sitemap placement:
+- External channels/assets:
+- Distribution owner/date/tracking:
 
-## GEO
-- Self-contained answer blocks:
-- Definitions:
-- Citable questions:
-- Sources:
+## Measurement and Lifecycle
+- Baseline:
+- Eligibility/visibility metric:
+- Task-success metric:
+- Activation/conversion/business metric:
+- Source and segment:
+- Owner:
+- Review date:
+- Update triggers:
+- Merge/redirect/delete criteria:
 
-## Risks and QA
+## Completion and QA
 - Cannibalization:
 - Sensitive claims:
 - Missing data:
-- Validation:
+- Reverse-outline result:
+- Second-search gaps:
+- Filler/deletion result:
+- Render/technical validation:
+- Publication state: draft | review | approved
 ```
 
 ## URL Optimization
@@ -169,8 +237,8 @@ Intent:
 ## Content Plan
 
 ```markdown
-| Priority | Cluster | Topic | Intent | Page Type | Keyword/Entity | Goal | Funnel | Required Proof | GEO Notes |
-|---|---|---|---|---|---|---|---|---|---|
+| Priority | Cluster | User Job | URL Decision | Page/Experience Type | Intent | Product/Business Fit | Original Contribution | Required Evidence | Journey Role | Metric | Owner |
+|---|---|---|---|---|---|---|---|---|---|---|---|
 ```
 
 ## Architecture / Topical Map
@@ -192,6 +260,58 @@ Intent:
 ```markdown
 | Priority | Issue | Evidence | Evidence Label | Affected URLs | Technical Action | Impact | Effort | Risk | Owner | Validation |
 |---|---|---|---|---|---|---|---|---|---|---|
+```
+
+## Programmatic SEO Specification
+
+```markdown
+# Programmatic SEO Specification
+
+## Admission
+- Repeated user job:
+- Evidence of demand:
+- Why variants need distinct URLs:
+- Dataset/source of truth and owner:
+- Unique data/utility:
+
+## Page-Worthiness
+- Required fields:
+- Data/inventory threshold:
+- Freshness limit:
+- Deduplication/entity resolution:
+- index_if:
+- noindex_if:
+- Do-not-generate condition:
+
+## URL and Lifecycle
+- URL/canonical rule:
+- Pagination/facet rule:
+- Empty/low-data state:
+- Delete/merge/rename/redirect behavior:
+- Sitemap/IndexNow rule:
+
+## Template Contract
+- Required visible facts:
+- Derived value/tool:
+- Product/user action:
+- Internal links:
+- Metadata/schema:
+- Mobile/accessibility/states:
+
+## Pilot and Scale
+- Pilot cohort and edge cases:
+- Crawl/render/user QA:
+- Monitoring window:
+- Success/scale criteria:
+- Stop/rollback criteria:
+- Owner and review cadence:
+```
+
+## Product Organic-Growth Roadmap
+
+```markdown
+| Priority | Initiative | User/Business Problem | Evidence | Pages/Product Surface | Journey Role | Product Contribution | Distribution | Owner | Dependencies | Leading Indicator | Business Metric | Risk | Validation |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 ```
 
 ## Migration Plan
